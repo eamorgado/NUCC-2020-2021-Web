@@ -22,4 +22,5 @@ Por exemplo o seguinte snipet:
 </body>
 </html>
 ```
-Resulta nesta estrutura:
+Resulta nesta estrutura:  
+<img src="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/Images/HTML/heloworld.jpg">
