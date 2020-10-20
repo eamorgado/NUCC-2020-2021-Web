@@ -53,4 +53,16 @@
 
 
 ## Uma Breve descrição
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftwitter.com%2Fmiratechno%2Fstatus%2F1263436766163468289&psig=AOvVaw1-SZJ9PIERzsQtmwvnfinh&ust=1603315554845000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjquISOxOwCFQAAAAAdAAAAABAD">
+<img align="center" src="https://pbs.twimg.com/media/EYihCuiXQAMhINK?format=jpg&name=900x900" alt="Representação da stack HTML + CSS + JavaScript como componentes estruturais do corpo humano" width=50% height=50%>
+
+&nbsp;&nbsp;&nbsp;&nbsp;Apesar de existirem novas formas de programar em Web (React, Angular, Flutter, ...) HTML, CSS e JavaScript continuam a ser importantes, no caso do JavaScript, fundamentais para as novas frameworks/libraries.   
+
+Tal como a figura mostra, existem 3 componentes principais numa Web app (notem que não estamos nem vamos entrar em Backend para este workshop):
++   Estrutura
++   Estilo/design
++   Funcionalidade
+
+&nbsp;&nbsp;&nbsp;&nbsp;São estes os papeis que cada linguagem neste workshop representa, o HTML vai definir a estrutura/organização da nossa Web app, o CSS vai conferir estilo (animações, cor, tipo de texto, etc) e o JavaScript funcionalidade (ao clicar num botão realizar n ações, criar estrutura dinamicamente, etc).
+
+Notem que, destas 3 linguagens (HTML, CSS e JavaScript) apenas o JavaScript é uma linguagem de programação, as outras duas são linguagens de estruturação. 
+
