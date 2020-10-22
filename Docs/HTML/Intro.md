@@ -43,7 +43,8 @@ Resulta nesta estrutura:
 &nbsp;&nbsp;&nbsp;&nbsp;Tal como referimos, o HTMl é composto por elementos que vão estruturar a página web e definir o seu conteúdo, uma elemento no HTML é composto por uma **tag** e o conteúdo (que está dentro de tags).
 Uma tag está sempre entre **<** e **>** em quase todos dos casos no HTML (va,os ver que existem excepções) um elemento tem uma **opening tag** (<tag_name>) e uma **closing tag** (</tag_name>)
 
-<img alt="Esquema de um elemento HTML" href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/Images/HTML/elements.jpg" width=50%>
+<img alt="Esquema de um elemento HTML"  src="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/Images/HTML/elements.jpg" width=50%>
+
 ## O Body
 
 ## Estrutura do HTML
