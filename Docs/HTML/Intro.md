@@ -34,7 +34,8 @@ Resulta nesta estrutura:
 6. [Attributos](#Attributos)  
 7. [Line breaks](#Line-breaks) 
 8. [Listas](#Listas)  
-9. [Images](#Images)  
+9. [Images](#Images)
+10. [Vídeos](#Vídeos)
 
 
 ## Anatomia do HTML
@@ -98,11 +99,11 @@ Uma tag está sempre entre **<** e **>** em quase todos dos casos no HTML (va,os
 
 
 ## Attributos
-&nbsp;&nbsp;&nbsp;&nbspAtributos são usados para fornecer mais dados/metadata a tags que por sua vez ajuda a configurar e identificar tags. Um atributo é sempre adicionado à parte inicial de uma tag (opening part). Qualquer atributo tem duas partes, o nome do atributo e o valor.
+&nbsp;&nbsp;&nbsp;&nbsp;Atributos são usados para fornecer mais dados/metadata a tags que por sua vez ajuda a configurar e identificar tags. Um atributo é sempre adicionado à parte inicial de uma tag (opening part). Qualquer atributo tem duas partes, o nome do atributo e o valor.
 
-&nbsp;&nbsp;&nbsp;&nbspExistem atributos diferentes e até atributos específicos/únicos a cada tag. Um muito utilizado é o **id** que permite identificar **unicamente** uma tag, sendo muito útil quando entrarmos no JavaScript para podermos alterar elementos. 
+&nbsp;&nbsp;&nbsp;&nbsp;Existem atributos diferentes e até atributos específicos/únicos a cada tag. Um muito utilizado é o **id** que permite identificar **unicamente** uma tag, sendo muito útil quando entrarmos no JavaScript para podermos alterar elementos. 
 
-&nbsp;&nbsp;&nbsp;&nbspOutro atributo é o **class** este está relacionado com o CSS, ao definirmos novos estilos/regras no CSS podemos definir esses estilos associados a classes que por sua vez são adicionadas a uma tag e vão aplicar o estilo associado a essa tag. Dentro deste atributo podemos colocar várias classes, estas vão ser aplicadas pela ordem em que foram inseridas.
+&nbsp;&nbsp;&nbsp;&nbsp;Outro atributo é o **class** este está relacionado com o CSS, ao definirmos novos estilos/regras no CSS podemos definir esses estilos associados a classes que por sua vez são adicionadas a uma tag e vão aplicar o estilo associado a essa tag. Dentro deste atributo podemos colocar várias classes, estas vão ser aplicadas pela ordem em que foram inseridas.
 
 ```html
 <body>
@@ -115,10 +116,10 @@ Uma tag está sempre entre **<** e **>** em quase todos dos casos no HTML (va,os
 ```
 
 ## Line breaks
-&nbsp;&nbsp;&nbsp;&nbspJá repararam que ao dar enter no HTML não é criada uma nova linha na página, para isso existe uma tag específica, **\<br\>** para esse efeito. Esta tag não precisa de uma closing tag.
+&nbsp;&nbsp;&nbsp;&nbsp;Já repararam que ao dar enter no HTML não é criada uma nova linha na página, para isso existe uma tag específica, **\<br\>** para esse efeito. Esta tag não precisa de uma closing tag.
 
 ## Listas
-&nbsp;&nbsp;&nbsp;&nbspNós podemos organizar informação em parágrafos **<p>** mas também o podemos organizar em listas. Em HTML existem dois tipos de listas, ordenadas (**\<ol\>**) e não ordenadas (bullet points, **\<ul\>**). Independentemente do tipo de lista a tag para items na lista é igual, **\<li\>**, informação/content só deve ser colocado nestes items.
+&nbsp;&nbsp;&nbsp;&nbsp; Nós podemos organizar informação em parágrafos **<p>** mas também o podemos organizar em listas. Em HTML existem dois tipos de listas, ordenadas (**\<ol\>**) e não ordenadas (bullet points, **\<ul\>**). Independentemente do tipo de lista a tag para items na lista é igual, **\<li\>**, informação/content só deve ser colocado nestes items.
   
 ```html
 <body>
@@ -130,8 +131,64 @@ Uma tag está sempre entre **<** e **>** em quase todos dos casos no HTML (va,os
   </ul>
 </body>
 ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;Nas listas ordenadas, consideramos que a lista tem uma ordem que pode ser de números ou não. Por default é de números a começar em um. Através de atributos, podemos alterar a ordem da lista (**reversed**), definir o elemento onde começa a lista (**start**) e o tipo de elementos para a ordem (**type**)
+
+```html
+<body>
+  <h1>Web stack - OL normal</h1>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
   
+  <h1>Web stack - OL ordem inversa</h1>
+  <ol reversed>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  
+  <h1>Web stack - OL ordem a começar em 10</h1>
+  <ol start="10">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+  
+  <h1>Web stack - OL ordem em i</h1>
+  <ol type="i">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+</body>
+```
+
+
 ## Images
+&nbsp;&nbsp;&nbsp;&nbsp;Para adicionar imagens utilizamos a tag **\<img/\>** esta não tem closing tag. Para idicarmos ao HTML onde ir buscar a imagem temos que fornecar o atributo **src** onde, ou colocamos o path para a imagem, se esta for local ou o link para a imagem se esta for online.. Podemos também adicionar um atributo **alt**, este vai adicionar um texto que descreve a imagem caso esta não possa ser visualizada. Podemos também definir o tamanho da imagem com **width** e **height**
+
+```html
+<body>
+  <h1Google</h1>
+  <img src="https://www.google.pt/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Google logo" width="50%"/>
+</body>
+```
+
+## Vídeos
+&nbsp;&nbsp;&nbsp;&nbsp;Podemos também adicionar vídeos à nossa página com a tag **\<video\>** onde temos que colocar o path/link do vídeo no atributo src. Nesta tag existe um atributo **controls** que se for adicionado fornece ao utilizador os controlos habituais num video player. Dentro da tag podemos adicionar texto a que é apresentado caso o vídeo náo possa ser carregado.
+
+```html
+<body>
+  <h1Google</h1>
+  <img src="https://www.google.pt/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="Google logo" width="50%"/>
+  <video src="https://www.youtube.com/watch?v=ZRCdORJiUgU&ab_channel=Google" width="500" height="500" controls>
+    Vídeo não suportado
+  </video>
+</body>
+```
 
 
 
