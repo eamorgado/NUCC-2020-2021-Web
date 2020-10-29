@@ -32,11 +32,9 @@ Resulta nesta estrutura:
 4. [Heading tags](#Heading-tags)  
 5. [Div tag](#Div-tag)  
 6. [Attributos](#Attributos)  
-7. [Mostrar texto](#Mostrar-texto)  
-8. [Styling](#Styling)  
-9. [Line breaks](#Line-breaks) 
-10. [Unordered lists](#Unordered-lists)  
-11. [Images](#Images)  
+7. [Line breaks](#Line-breaks) 
+8. [Listas](#Listas)  
+9. [Images](#Images)  
 
 
 ## Anatomia do HTML
@@ -83,17 +81,56 @@ Uma tag está sempre entre **<** e **>** em quase todos dos casos no HTML (va,os
 
 
 ## Div tag
+&nbsp;&nbsp;&nbsp;&nbsp;As **\<div\>** são um dos elementos mais comuns numa página web, é um container que divide a página em secções utilizadas para agrupar elementos. Esta tag **não tem representação visual** (pode ser adicionada em CSS), uma vez que, agrupa elementos, podemos aplicar um estilo a todos os elementos nessa secção.
+
+```html
+<body>
+  Fora de grupo
+  <div>
+    Primeiro grupo, aplicado estilos 
+    <div>
+      Segundo grupo, dentro do primeiro (nested), estilos de 1 aplicados aqui também,
+      estilos de 2 não são aplicados em 1
+    </div>
+  </div>
+</body>
+```
+
 
 ## Attributos
+&nbsp;&nbsp;&nbsp;&nbspAtributos são usados para fornecer mais dados/metadata a tags que por sua vez ajuda a configurar e identificar tags. Um atributo é sempre adicionado à parte inicial de uma tag (opening part). Qualquer atributo tem duas partes, o nome do atributo e o valor.
 
-## Mostrar texto
+&nbsp;&nbsp;&nbsp;&nbspExistem atributos diferentes e até atributos específicos/únicos a cada tag. Um muito utilizado é o **id** que permite identificar **unicamente** uma tag, sendo muito útil quando entrarmos no JavaScript para podermos alterar elementos. 
 
-## Styling
+&nbsp;&nbsp;&nbsp;&nbspOutro atributo é o **class** este está relacionado com o CSS, ao definirmos novos estilos/regras no CSS podemos definir esses estilos associados a classes que por sua vez são adicionadas a uma tag e vão aplicar o estilo associado a essa tag. Dentro deste atributo podemos colocar várias classes, estas vão ser aplicadas pela ordem em que foram inseridas.
+
+```html
+<body>
+  <div id="root" class="root-style">
+    <div class="title color-red text big> Root </div>
+    <div id="child-1" class="child"><strong>C1 bold</strong>  <b>C1 also bold</b></div>
+    <div id="child-2" class="child"><em>C2 italic</em></div>
+  </div>
+</body>
+```
 
 ## Line breaks
+&nbsp;&nbsp;&nbsp;&nbspJá repararam que ao dar enter no HTML não é criada uma nova linha na página, para isso existe uma tag específica, **\<br\>** para esse efeito. Esta tag não precisa de uma closing tag.
 
-## Unordered lists
-
+## Listas
+&nbsp;&nbsp;&nbsp;&nbspNós podemos organizar informação em parágrafos **<p>** mas também o podemos organizar em listas. Em HTML existem dois tipos de listas, ordenadas (**\<ol\>**) e não ordenadas (bullet points, **\<ul\>**). Independentemente do tipo de lista a tag para items na lista é igual, **\<li\>**, informação/content só deve ser colocado nestes items.
+  
+```html
+<body>
+  <h1>Web stack (base)</h1>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+</body>
+```
+  
 ## Images
 
 
