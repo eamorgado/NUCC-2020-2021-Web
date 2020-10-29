@@ -34,8 +34,9 @@ Resulta nesta estrutura:
 6. [Attributos](#Attributos)  
 7. [Line breaks](#Line-breaks) 
 8. [Listas](#Listas)  
-9. [Images](#Images)
-10. [Vídeos](#Vídeos)
+9. [Images](#Images)  
+10. [Vídeos](#Vídeos)  
+11. [Links](#Links)  
 
 
 ## Anatomia do HTML
@@ -189,6 +190,10 @@ Uma tag está sempre entre **<** e **>** em quase todos dos casos no HTML (va,os
   </video>
 </body>
 ```
+
+
+## Links
+&nbsp;&nbsp;&nbsp;&nbsp; No HTML podemos também colocar links para outros elementos na página, para outras páginas, ou para funções. Para isso utilizamos a anchor tag **<a\>**.
 
 
 
