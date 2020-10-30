@@ -5,9 +5,52 @@
 
 <details>
     <summary>:clipboard: Outline</summary>
-  :heavy_check_mark: O que vamos cobrir  
+  :heavy_check_mark: O que vamos cobrir 
+    <ul>
+        <li>HTML:<br>
+            <ul>
+                <li>Estrutura</li>
+                <li>Tags comuns (div,a,table,footer,img,video,p,...)</li>
+                <li>Atributos</li>
+            </ul>        
+        </li>
+        <li>CSS:<br>
+            <ul>
+                <li>class style</li>
+                <li>id style</li>
+                <li>tag style</li>
+                <li>font style</li>
+                <li>color style</li>
+                <li>hover action</li>
+                <li>display style (none,block,inline)</li>
+                <li>position style</li>
+                <li>size style</li>
+                <li>responsive style</li>
+            </ul>
+        </li>
+        <li>JavaScript:<br>
+            <ul>
+                <li>Introdução ao JS</li>
+                <li>variaveis (let,var,const)</li>
+                <li>Condicionais</li>
+                <li>Comparações e igualdade (==,===)</li>
+                <li>Funções</li>
+                <li>Classes</li>
+                <li>Manipulação da DOM</li>
+                <li>Criação dinâmica de HTML</li>
+                <li>Event listeners</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <p><b>Projeto final:</b> Jogo Tic Tac Toe com algoritmo Min Max, Jogo Connect four com algoritmo Monte Carlo</p>
   
   :x: O que não vamos cobrir
+  <ul>
+    <li>HTML: canvas</li>
+    <li>CSS: animações</li>
+    <li>JavaScript: async, NodeJs</li>
+  </ul>
 </details>
 <details>
      <summary> <a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/HTML/HTML.md">HTML</a> 
@@ -18,7 +61,7 @@
             </ol>
 </details>
 <details>
-     <summary>CSS 
+     <summary><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/CSS/Intro.md">CSS</a>
        <img align="left" alt="CSS" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
     </summary>
 </details>
