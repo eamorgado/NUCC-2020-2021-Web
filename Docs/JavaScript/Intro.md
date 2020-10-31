@@ -29,5 +29,9 @@ console.log('Welcome to NUCC Web workshop');
 
 
 ## Tipos de dados
-&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp; No JS existem **7 titpos de dados fundamentais**:
++ **Number**: qualquer número, incluindo decimais  
++ **String**: Qualquer agrupamento de caracteres entre **'....'** ou **"...."**  
++ **Bolean**: Tipo de dados com apenas dois valores **true** e **false**  
++ **null**: representa a **falta de um valor**  
 
