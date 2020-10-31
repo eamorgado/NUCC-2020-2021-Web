@@ -72,6 +72,7 @@
     <ol style="margin-left: 10%">
         <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Intro.md">Introdução</a></li>  
         <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Condicionais.md">Condicionais</a></li>
+        <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Fun%C3%A7%C3%B5es.md">Funções</a></li>
     </ol>
 </details>
 <details>
