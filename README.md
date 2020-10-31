@@ -66,7 +66,7 @@
     </summary>
 </details>
 <details>
-     <summary><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Intro.md">JavaScript</a>
+     <summary><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/JavaScript.md">JavaScript</a>
        <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
     </summary>
     <ol style="margin-left: 10%">
