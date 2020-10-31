@@ -71,6 +71,7 @@
     </summary>
     <ol style="margin-left: 10%">
         <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Intro.md">Introdução</a></li>
+        <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Condicionais.md">Condicionais</a></li>
     </ol>
 </details>
 <details>
