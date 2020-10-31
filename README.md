@@ -69,6 +69,9 @@
      <summary><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Intro.md">JavaScript</a>
        <img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />
     </summary>
+    <ol style="margin-left: 10%">
+        <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/new/main/Docs/JavaScript.md">Introdução</a></li>
+    </ol>
 </details>
 <details>
      <summary>:mag_right: Recursos</summary>
