@@ -5,7 +5,9 @@
 
 ## Conteúdo
 1. [Imprimir valores na consola](#Imprimir-valores-na-consola)  
-2. [Tipos de dados](#Tipos-de-dados)
+2. [Tipos de dados](#Tipos-de-dados)  
+3. [Operadores aritméticos](#Operadores-aritméticos)  
+4. [Variáveis](#Variáveis)  
 
 ## Imprimir valores na consola
 &nbsp;&nbsp;&nbsp;&nbsp; O JavaScript não é uma linguagem que possa ser compilada e testada no terminal como no caso do Java (apesar de terem nomes parecidos estas não podem ser mais differentes). Para podermos testar temos que correr o script no browser, para podermos ver os valores de um objecto utilizamos a keyword **console**, que tem uma coleção de acções que podemos fazer, para imprimir valores utilizamos o comando **console.log()** tudo o que é colocado nos parênteses fica visível.
@@ -29,9 +31,22 @@ console.log('Welcome to NUCC Web workshop');
 
 
 ## Tipos de dados
-&nbsp;&nbsp;&nbsp;&nbsp; No JS existem **7 titpos de dados fundamentais**:
+&nbsp;&nbsp;&nbsp;&nbsp; No JS existem **7 titpos de dados fundamentais** (primitivos:
 + **Number**: qualquer número, incluindo decimais  
 + **String**: Qualquer agrupamento de caracteres entre **'....'** ou **"...."**  
 + **Bolean**: Tipo de dados com apenas dois valores **true** e **false**  
-+ **null**: representa a **falta de um valor**  
++ **null**: representa a **falta de um valor** (vazio, deve ser atribuído)  
++ **undefined**: representa a **falta de um valor** mas é diferente do null (declarado mas não atribuído)  
++ **Object**: coleção de **dados relacionados**  
+
+
+## Operadores aritméticos
+&nbsp;&nbsp;&nbsp;&nbsp; No JS temos operadores ariteméticos iguais a outras LP (+,-,*,/,%)
+
+## Variáveis
+&nbsp;&nbsp;&nbsp;&nbsp; Uma variável é um container para um valor que por sua vez é armazenada em memória. Com elas podemos:
++ Criar variáveis  
++ Guardar e atualizar o seu valor  
++ Fazer referência ao valor armazenado por elas  
+
 
