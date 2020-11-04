@@ -1,5 +1,5 @@
 # NUCC - Workshop de Web (2020/2021) -- Outline e Recursos
-**Objetivo:** O objetivo dest workshop é apresentar as ferramentas básicas da web stack (HTML + CSS + JavaScript)
+**Objetivo:** O objetivo deste workshop é apresentar as ferramentas básicas da web stack (HTML + CSS + JavaScript)
 
 ## Conteúdo:
 
