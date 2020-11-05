@@ -75,6 +75,7 @@
         <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Fun%C3%A7%C3%B5es.md">Funções</a></li>
         <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Arrays.md">Arrays</a></li>
         <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Loops.md">Loops</a></li>
+        <li><a href="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/JavaScript/Objects.md">Objectos</a></li>
     </ol>
 </details>
 <details>
