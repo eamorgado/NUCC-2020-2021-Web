@@ -9,6 +9,7 @@
 3. [Atualizar Elementos](#Atualizar-Elementos)   
 4. [Tamanho do Array](#Tamanho-do-Array)  
 5. [Adicionar elementos](#Adicionar-elementos)  
+6. [Remover elementos](#Remover-elementos)  
 
 ## Criar Arrays
 &nbsp;&nbsp;&nbsp;&nbsp; Uma das formas mais fáceis de criar um array é a seguinte forma:
@@ -25,7 +26,7 @@ let arr = ['A','B','C',D'];
 <img src="https://github.com/eamorgado/NUCC-2020-2021-Web/blob/main/Docs/Images/JavaScript/array_access.jpg" alt="Aceder a elementos em array" width="42%">
 
 ## Atualizar Elementos
-&nbsp;&nbsp;&nbsp;&nbsp; Atualizar valoes de forma individual é similar a aceder.
+&nbsp;&nbsp;&nbsp;&nbsp; Atualizar valores de forma individual é similar a aceder.
 
 ```javascript
 let abc = ['A','B','C','D'];
@@ -46,7 +47,29 @@ console.log('Size: ',abc.length);
 ```
 
 ## Adicionar elementos
-&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; Para adicionar elementos a um array (append) basta chamar o método ```.push()```. Esta função pode receber um ou vários argumentos, separados por vígulas. Estes elementos vão depois ser adicionados ao array.
 
+```javascript
+let abc = ['A','B'];
+console.log(abc);
 
+abc.push('C');
+console.log(abc);
 
+abc.push('D','E');
+console.log(abc);
+```
+
+## Remover elementos
+&nbsp;&nbsp;&nbsp;&nbsp; Para remover o **úlimo elemento** no array, utilizamos ```.pop()```.
+
+```javascript
+let abc = ['A','B','C'];
+console.log(abc);
+
+abc.pop();
+console.log(abc);
+
+abc.pop();
+console.log(abc);
+```
