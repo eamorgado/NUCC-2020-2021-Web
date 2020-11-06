@@ -1,0 +1,22 @@
+#game-in-progress-ttt,
+#game-in-progress-cf {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    border-top: 3px solid whitesmoke;
+    background-color: rgb(142, 168, 177);
+    animation: flash 10s linear infinite;
+}
+
+#game-in-progress-ttt p,
+#game-in-progress-cf p {
+    font-size: 2.5vh;
+    text-align: right;
+    margin: 0;
+    text-align: center;
+    line-height: 30px;
+    color: whitesmoke;
+    transform: translateX(50%);
+    animation: scroll 20s linear infinite;
+}

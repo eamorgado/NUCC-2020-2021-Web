@@ -1,0 +1,67 @@
+.container {
+    margin: 50px;
+    padding: 50px;
+    background: #27ae60;
+    /* Add curve */
+    border-radius: 25px;
+}
+
+.title {
+    color: #545454;
+    font-weight: 100;
+    text-align: center;
+}
+
+.title span {
+    color: yellow;
+}
+
+.status-action-ttt {
+    display: flex;
+    margin-top: 25px;
+    font-size: 25px;
+    justify-content: space-around;
+}
+
+.reset-ttt {
+    cursor: pointer;
+    /* Acts like button when hovered */
+}
+
+.reset-ttt:hover {
+    color: yellow;
+}
+
+.game-grid-ttt {
+    background: #09574f;
+    display: grid;
+    z-index: 1;
+    /* Specify number of cols and rows*/
+    grid-template-columns: repeat(3, 1fr);
+    /*3 spaces repeated to 1fr (equally divided space)*/
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin-top: 50px;
+    grid-gap: 15px;
+}
+
+.game-cell-ttt {
+    z-index: 2;
+    height: 200px;
+    width: 200px;
+    background: #27ae60;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 1000;
+    padding-top: 60px;
+}
+
+.x::before {
+    font-size: 200px;
+}
+
+.o::before {
+    font-size: 225px;
+}

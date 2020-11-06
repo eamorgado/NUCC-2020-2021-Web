@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Add top icon -->
+    <link rel="icon" href="/static/Images/logo.ico" type="image/icon">
+
+    <!--==================== Google Font:Roboto =============================-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+    <!--=====================================================================-->
+
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/progress_bars.css">
+    <link rel="stylesheet" href="/static/css/animations.css">
+    <link rel="stylesheet" href="/static/css/ticatac.css">
+    <link rel="stylesheet" href="/static/css/connectfour.css">
+
+
+    <title>NUCC - Workshop Web 2020/2021</title>
+</head>
+
+<body>
+    <!-- Main/Home page-->
+    <div class="page-container" id="starter">
+        <div class="content-wrap">
+            <header class="navbar">
+                <img src="/static/Images/logo.png" alt="NUCC logo" class="logo">
+                <div>
+                    <h1>&nbsp;&nbsp;&nbsp;&nbsp; Workshop de Web 2020</h1>
+                </div>
+                <nav>
+                    <a class="pointer" id="h-ttt"><span onclick="start('ttt')"><b>Tic Tac Toe</b></span></a>
+                    <a class="pointer" id="h-cn4"><span onclick="start('cn4')"><b>Connect Four</b></span></a>
+                    <a class="pointer" id="results"><span onclick="openResults();"><b>Results</b></span></a>
+                </nav>
+            </header>
+
+            <!-- Float bar to inform that game is going on -->
+            <div id="game-in-progress-ttt">
+                <p>Tic Tac Toe game in progress</p>
+            </div>
+            <div id="game-in-progress-cf">
+                <p>Connect Four game in progress</p>
+            </div>
+        </div>
+        <footer id="copy">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&copy; NUCC 2020</footer>
+    </div>
+
+
+    <div id="win-overlay" class="overlay">
+        <div id='win-overlay-content' class="overlay-content">
+            <div class="win-title" id="win-title"></div>
+            <div class="win-des" id="win-des"></div>
+            <div class="close" id="win-close">Close</div>
+        </div>
+    </div>
+
+
+    <div class="overlay" id="games-overlay">
+        <a href="javascript:void(0)" class='closebtn' onclick="closeResults()">&times;</a>
+        <div class="overlay-content" id="game-overlay-content">
+            <div class="center">
+                <h1><b>Game Results</b></h1>
+                <div id="clear"></div>
+                <br>
+                <div id="TTT" class="results">
+                    <h2>Tic Tac Toe</h2>
+                    <table id="TTT-Table" class="tb-results">
+                    </table>
+                    <div class="win-count">
+                        Total Games: <span id="ttt-total-games"></span> &nbsp;&nbsp;&nbsp;&nbsp; Wins: <span id="ttt-total-wins"></span>
+                    </div>
+                </div>
+                <br><br>
+                <div id="CN4" class="results">
+                    <h2>Connect 4</h2>
+                    <table id="CN4-Table" class="tb-results">
+                    </table>
+                    <div class="win-count">
+                        Total Games: <span id="cn4-total-games"></span> &nbsp;&nbsp;&nbsp;&nbsp; Wins: <span id="cn4-total-wins"></span>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+        </div>
+    </div>
+    <script src="/src/TicTacToe/app.js"></script>
+    <script src="/src/TicTacToe/Play.js"></script>
+    <script src="/src/TicTacToe/Table.js"></script>
+    <script src="/src/TicTacToe/MinMax.js"></script>
+    <script src="/src/TicTacToe/Game.js"></script>
+
+    <script src="/src/Connect4/Play.js"></script>
+    <script src="/src/Connect4/Table.js"></script>
+    <script src="/src/Connect4/MonteCarlo.js"></script>
+    <script src="/src/Connect4/Game.js"></script>
+    <script src="/src/app.js"></script>
+</body>
+
+</html>
